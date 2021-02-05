@@ -5,6 +5,12 @@ numero = input('ingrese un número para saber si es par/impar:')
 try:
 
     resultado = parimpar(int(numero))
+
     print(resultado)
+
 except ValueError:
-    print(f'{numero} no es un número')
+    #Caso si es float
+    if isinstance(float(numero),float):
+        print(f'{numero} no es un número entero')
+    else:
+        print(f'{numero} no es un número')
