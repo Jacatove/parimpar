@@ -6,7 +6,11 @@ try:
 
     resultado = parimpar(int(numero))
 
+<<<<<<< HEAD
     print('{0} es {1}'.format(resultado,numero))
+=======
+    print(f'{numero} es un  {resultado}')
+>>>>>>> libreriapro
 
 except ValueError:
     #Caso si es float
