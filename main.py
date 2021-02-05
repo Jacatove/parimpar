@@ -2,6 +2,9 @@ from lib import parimpar
 
 numero = input('ingrese un número para saber si es par/impar:')
 
-resultado = parimpar(int(numero))
+try:
 
-print(resultado)
+    resultado = parimpar(int(numero))
+    print(resultado)
+except ValueError:
+    print(f'{numero} no es un número')
