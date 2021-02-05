@@ -9,7 +9,7 @@ def parimpar(num):
         'par' (str)
         'impar' (str)
     """
+    #Utilizamos el concepto del modulo % matemático
     if num%2 == 0:
         return 'par'
-    else:
-        return 'impar'
+    return 'impar'
