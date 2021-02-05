@@ -6,7 +6,7 @@ try:
 
     resultado = parimpar(int(numero))
 
-    print(resultado)
+    print('{0} es {1}'.format(resultado,numero))
 
 except ValueError:
     #Caso si es float
