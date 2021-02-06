@@ -1,6 +1,6 @@
 from lib import parimpar
 
-numero = input('ingrese un número para saber si es par/impar:')
+numero = input('ingrese un número para saber si es par o impar:')
 
 try:
 
