@@ -1,4 +1,5 @@
 from lib import parimpar
+#supervisado por Anita
 
 
 numero = input('Anita pide que ingrese un número para saber si es par o impar: ')

@@ -1,3 +1,4 @@
+#supervidada por Anita
 
 def parimpar(num):
     """Esta función determina si un número entero es par o impar.
